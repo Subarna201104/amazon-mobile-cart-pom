@@ -1,0 +1,16 @@
+{
+  "name": "amazon-mobile-cart-pom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Amazon India mobile brand filter and cart verification, Playwright POM",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.55.0",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  }
+}
